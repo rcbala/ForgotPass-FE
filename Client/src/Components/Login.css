@@ -1,0 +1,56 @@
+.Login_form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 150px 50px;
+    border: 1px solid #b3dbe7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #FFDEE9;
+        background-image: linear-gradient(211deg, #FFDEE9 0%, #B5FFFC 100%);
+    
+}
+
+.Login{
+    font-style: italic;
+        font-weight: 900;
+        font-variant: small-caps;
+}
+
+
+.input {
+    width: 110%;
+    padding: 8px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+Button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #b9dcc8;
+    color: white;
+}
+
+Button:hover {
+    background-color: #4d27ae;
+}
+
+.error-message {
+    color: #ff3333;
+    margin-bottom: 10px;
+}
+
+.forgot a{
+    text-decoration: none;
+
+}
+.Login_form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
